@@ -1,0 +1,239 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: "Roboto Slab";
+}
+
+#app {
+  width: 1445px;
+  margin: 0 auto;
+}
+
+.header {
+  width: 1445px;
+  width: inherit;
+  height: 968px;
+}
+
+.header__ul {
+  margin: 0 auto;
+  margin-top: 32px;
+  width: 941px;
+  height: 56px;
+  display: flex;
+  flex-direction: row;
+  gap: 218px;
+}
+
+.linker{
+  position: absolute;
+  color: #828282;
+  font-size: 18px;
+}
+
+.linker:hover{
+  transition: .3s;
+  text-decoration: underline;
+  transform: scale(1.1);
+  color: black;
+}
+
+.ul__li {
+  color: #828282;
+}
+
+hr {
+  margin: 0 auto;
+  width: 941px;
+}
+
+h1 {
+  margin-left: 251px;
+  margin-top: 39px;
+  width: 123px;
+}
+
+h4 {
+  margin-left: 671px;
+  margin-top: -49px;
+  font-weight: 400;
+}
+
+.header__Eng {
+  margin-left: 928px;
+  margin-top: -249px;
+  font-size: 16px;
+  line-height: 20px;
+  font-weight: 900;
+  transform: rotate(270deg);
+}
+
+.header__Photo {
+  width: 943.61px;
+  height: 737px;
+  margin-left: 250px;
+  margin-top: 296px;
+  border-radius: 5px;
+}
+
+/* Main */
+
+.main__About {
+  margin-top: 104px;
+  height: 556px;
+  width: 1445px;
+  background: #f6f6f6;
+  border-radius: 5px;
+}
+
+.main__About h2 {
+  padding-top: 80px;
+  margin-left: 645px;
+  font-size: 34px;
+  line-height: 42px;
+}
+
+.main__About p {
+  font-size: 18px;
+  line-height: 22px;
+  width: 485px;
+  height: 32px;
+  margin-left: 480px;
+  margin-top: 48px;
+  text-align: center;
+}
+
+/* Skills */
+
+.Skills {
+  height: 450px;
+  width: 1445px;
+  padding-top: 91px;
+}
+
+.Skills h2 {
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+}
+.Skills p {
+  text-align: center;
+  margin-top: 60px;
+  font-size: 18px;
+  line-height: 22px;
+}
+
+.skills__Icons {
+  width: 52px;
+  height: 52px;
+}
+
+.skills__Wrapper {
+  text-align: center;
+  margin-top: 83px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  gap: 171px;
+}
+
+.skills__Wrapper p{
+  font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #828282;
+}
+
+/* Portfolio */
+
+.portfolio{
+  height: 4230px;
+  width: 1445px;
+  background: #F6F6F6;
+}
+
+.portfolio h2{
+  text-align: center;
+  padding-top: 92px;
+  font-size: 40px;
+line-height: 42px;
+}
+
+.Portfolio__Grid{
+  margin-top: 47px;
+  display:flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 100px;
+}
+
+
+.Portfolio__Grid h3{
+  margin-top: 24px;
+  font-size: 24px;
+line-height: 22px;
+text-align: center;
+text-decoration-line: underline;
+}
+
+.portfolioImg{
+  margin-top: 10px;
+ width: 936.24px;
+  height: 522px;
+  border-radius: 10px;
+}
+
+
+/* Contacts */
+
+.Contacts{
+  margin-top: 54px;
+  width: 1445px;
+  height: 352px;
+}
+
+.Contacts h2{
+  font-size: 34px;
+  line-height: 42px;
+  text-align: center;
+}
+
+.Contacts p{
+  margin-top: 23px;
+  font-size: 18px;
+  line-height: 22px;
+  text-align: center;
+}
+
+.Contacts address{
+  margin-top: 19px;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+}
+.Contacts h5{
+  margin-top: 19px;
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  font-weight: 100;
+}
+
+.messagers{
+  margin-top: 50px;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 100px;
+}
+
+.contactIcons{
+  width: 55px;
+  height: 55px;
+}
